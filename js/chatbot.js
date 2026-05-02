@@ -75,8 +75,7 @@ function startChat() {
   messages.innerHTML = "";
   clearOptions();
 
-  addBot("Welcome to Bareeq Auto Care 👋");
-  addBot("Just tell me what service you’d like to book, and I’ll help you with joy ✨");
+  addBot("Welcome to Bareeq Auto Care 👋, How can i help you today?");
 
   button("Make a Reservation", () => {
     addUser("Make a Reservation");
